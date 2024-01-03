@@ -1,9 +1,9 @@
 ---
 title: "OS"
 layout: category
-permalink: /categories/os/
+permalink: /categories/OS/
 author_profile: true
-taxonomy: os
+taxonomy: OS
 sidebar:
   nav: "categories"
 ---
