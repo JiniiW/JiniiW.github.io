@@ -29,14 +29,14 @@ categories:
       - title: "Categories4"
         url: /categories/categories4/
 
-  - title: "Title2"
+  - title: "Tech"
     children:
       - title: "Categories5"
         url: /categories/categories5/
       - title: "Categories6"
         url: /categories/categories6/
 
-  - title: "Title3"
+  - title: "Review"
     children:
       - title: "Categories7"
         url: /categories/categories7/
