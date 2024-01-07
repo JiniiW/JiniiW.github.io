@@ -38,12 +38,12 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: right;
+    float: left;
     
     width: calc(100% - #{$left-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
     /* 2022.01.19 gap between sidebar and page */
-    padding-left: 3em;
+    // padding-left: 2em;
   }
 
   @include breakpoint($x-large) {
@@ -51,7 +51,7 @@ body {
     width: calc(100% - #{$left-sidebar-width});
     padding-right: $right-sidebar-width;
     /* 2022.01.19 gap between sidebar and page */
-    padding-left: 3em;
+    // padding-left: 2em;
   }
 
   .page__inner-wrap {
