@@ -3,17 +3,18 @@ main:
   # - title: "Home"
   #   url: https://JiniiW.github.io/
 
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
 
-  - title: "GitHub"
-    url: https://github.com/JiniiW
 
   # - title: "Projects"
   #   url: /projects/
 
-  # - title: "Categories"
-  #   url: /categories/
+  - title: "Categories"
+    url: /categories/
+
+  - title: "GitHub"
+    url: https://github.com/JiniiW
 
 # sidebar navigation (categories)
 # 2022.02.15 sidebar update : simple ver.
