@@ -25,19 +25,20 @@ categories:
         url: /categories/OS/
       # - title: "Categories2"
       #   url: /categories/categories2/
-      - title: "Categories3"
-        url: /categories/categories3/
-      # - title: "Categories4"
-      #   url: /categories/categories4/
 
   - title: "Tech"
     children:
-      - title: "Categories5"
-        url: /categories/categories5/
-      - title: "Categories6"
-        url: /categories/categories6/
+      - title: "Java"
+        url: /categories/java/
+      # - title: "Categories6"
+      #   url: /categories/categories6/
 
-  - title: "Review"
+  - title: "Refactoring"
     children:
-      - title: "Categories7"
-        url: /categories/categories7/
+      - title: "baekjoon"
+        url: /categories/baekjoon/
+
+  # - title: "Review"
+  #   children:
+  #     - title: "Categories7"
+  #       url: /categories/categories7/
