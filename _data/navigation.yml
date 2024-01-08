@@ -37,6 +37,8 @@ categories:
     children:
       - title: "baekjoon"
         url: /categories/baekjoon/
+      - title: "SimpleProgram"
+        url: /categories/SimpleProgram/
 
   # - title: "Review"
   #   children:
