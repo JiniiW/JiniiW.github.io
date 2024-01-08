@@ -1,6 +1,6 @@
 ---
 title: "Categories3"
-layout: java
+layout: category
 permalink: /categories/java/
 author_profile: true
 taxonomy: java

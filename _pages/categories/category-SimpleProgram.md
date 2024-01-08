@@ -1,6 +1,6 @@
 ---
 title: "SimpleProgram"
-layout: SimpleProgram
+layout: category
 permalink: /categories/SimpleProgram/
 author_profile: true
 taxonomy: SimpleProgram
