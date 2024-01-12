@@ -5,7 +5,7 @@ excerpt: "Stream API"
 categories:
   - Java
 tags:
-  - [stream]
+  - [stream, API, method]
 
 permalink: /java/2024-01-10-JAVA_Stream_API/
 
@@ -71,7 +71,7 @@ intStream, integerStream 출력 : **<U>1 5 3</U>**
 <span style = "color : red">객체 타입</span>의 데이터 처리가 필요한 경우에 사용한다.<br>
 
 현재 작성한 코드는 int형 배열의 요소를 필터링 하기 때문에 IntStream을 사용해야 한다.
-만약 <mark>IntStream을 Stream&lt;Integer&gt;로 변환하는 경우에는 boxed()메서드</mark>를 사용해야 한다.
+만약 **IntStream을 Stream&lt;Integer&gt;로 변환하는 경우에는 boxed()메서드**를 사용해야 한다.
 
 > **IntStream** : 기본형(int) / **Stream&lt;Integer&gt;** : 객체(Integer)
 
@@ -108,8 +108,7 @@ sorted()에 Comparator 클래스의 comparing() 메서드를 사용하면서 Str
 stringStream2 출력 : **<U>문자열이 짧은 순</U>**
 {: .notice--danger}
 
-<br>
-**comparing() VS compare()**<br>
+##### comparing() VS compare()
 그러면 여기서 궁금한 점이 발생할 수 있다.<br>
 원래 Comparator 인터페이스를 직접 구현하여 compare()메서드를 정의해야 하지만 여기서는 comparing() 메서드를 사용하였다.<br>
 
@@ -162,7 +161,7 @@ public class ForEach {
 배열의 요소를 정렬한 후 바로 출력해주기 위해 스트림 객체에 저장하지 않고 요소 하나하나를 바로 출력해주었다.
 
 
-**forEach() VS peek()**<br>
+##### forEach() VS peek()
 forEach()는 최종 연산으로 요소을 소모한다.<br>
 하지만 peek()는 중간연산으로 요소를 소모하지 않는다.<br>
 때문에 peek()은 중간에 결과값을 확인할 수 있는 디버깅 용으로 많이 사용한다. -> filter()나 map()의 결과를 확인할 때 유용하다.
@@ -252,7 +251,7 @@ collect()메서드는 Collector 인터페이스를 구현한 것으로, Collecto
 
 > 따라서 collect()메서드의 매개변수로는 이러한 수집 기능을 제공하는 Collector 인터페이스를 구현한 클래스의 객체가 전달되어야 한다는 의미이다.
 
-**collect(Collectors.toList()) VS toList()**<br>
+##### collect(Collectors.toList()) VS toList()
 해당 메서드는 기능적으로 동일하다.<br>
 collect(Collectors.toList())를 간결하게 사용할 수 있도록 Collectors 클래스에 추가된 메서드가 toList()인 것이다.
 
@@ -298,8 +297,14 @@ for (String fruit : stringList) {
 
 내부 반복자는 직접 루프문을 작성하지 않고 간결한 코드로 요소를 처리할 수 있지만, 외부 반복자는 직접 루프를 작성해야 한다.
 
-때문에 내부 반복자를 사용하는 스트림은 코드가 간결해지고 처리속도가 빠르기 때문에 <mark>병렬처리</mark>에 효율적이다.<br>
-또한 <mark>람다식</mark>을 활용하여 다양한 요소 처리를 정의하고, 이를 통해 중간 처리와 최종 처리를 수행하는 <mark>파이프라인</mark>을 형성하는 특징을 가진다.
+>스트림 연산의 특징 : 불변성, 파이프라인, 일회성, 병렬화
+
+결론적으로 스트림 연산은 내부 반복자를 통해 코드가 간결해지고 처리속도가 빠르기 때문에 **병렬처리**에 효율적이다.
+
+또한 데이터 소스를 다루기 위해 스트림 객체를 새로 생성하여 사용하기 때문에 원본데이터를 변경하지 않고 사용 가능하지만 재사용이 불가능한 일회성 객체이다.
+
+마지막으로 **람다식**을 활용하여 다양한 요소 처리를 정의하고, 이를 통해 중간 처리와 최종 처리를 수행하는 **파이프라인**을 형성할 수 있다.
+
 
 ---
 
