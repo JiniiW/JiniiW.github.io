@@ -439,7 +439,7 @@
 }
 
 .nav__list .nav__items {
-  margin: 0 0 2em 0;
+  margin: 2em 0 2em 0;
   font-family: $menufont;
   font-size: 1.3rem;
 
@@ -536,13 +536,13 @@
 
   .nav__title {
     /* change Right Navigation title 'On this page' color */
-    color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
     font-size: $type-size-6;
     background: inherit;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
     border-bottom: 1.5px solid rgba($primary-color, 0.3);
-    background-color: rgba($primary-color, 0.1);
+    // background-color: rgba($primary-color, 0.1);
   }
 
   // Scrollspy marks toc items as .active when they are in focus
@@ -568,7 +568,7 @@
     color: $text-color;
     font-weight: 600;
     line-height: 1.5;
-    border-bottom: 1.5px solid rgba($primary-color, 0.3);
+    border-bottom: 1px solid #dddddd;
 
     &:hover {
       font-weight: 500;
