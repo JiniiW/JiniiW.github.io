@@ -16,14 +16,14 @@ date: 2024-01-14
 last_modified_at: 2024-01-14
 ---
 ## 기존 코드
-<a href="{{url}}/Refactoring/2024-01-14_Refactoring_SimpleProgram_StudentGradeWithStreamV1/"><mark>Version1</mark></a> 
+<a href="{{url}}/Refactoring/2024-01-14_Refactoring_SimpleProgram_StudentGradeWithStreamV1/"><span style = "color : red">Version1</span></a> 
 
 
 ## 코드 작성
 추가된 파일 : ExamResult
 
 1.Student<br>
-<a href="https://github.com/JiniiW/Code-Refactoring/blob/main/SimpleProgram/src/studentgradgewitthstream/v1/Student.java"><mark>GitHub</mark></a> 에서 확인 가능하다.
+<a href="https://github.com/JiniiW/Code-Refactoring/blob/main/SimpleProgram/src/studentgradgewitthstream/v1/Student.java"><span style = "color : red">GitHub</span></a> 에서 확인 가능하다.
 
 2.ExamResult<br>
 
