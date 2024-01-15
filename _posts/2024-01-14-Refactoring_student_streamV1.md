@@ -38,7 +38,7 @@ last_modified_at: 2024-01-14
 
 ## 코드 작성
 1. Student<br>
-<a href="https://github.com/JiniiW/Code-Refactoring/blob/main/SimpleProgram/src/studentgradgewitthstream/v1/Student.java"><mark>GitHub</mark></a> 에서 확인 가능하다.
+<a href="https://github.com/JiniiW/Code-Refactoring/blob/main/SimpleProgram/src/studentgradgewitthstream/v1/Student.java"><span style = "color : red">GitHub</span></a> 에서 확인 가능하다.
 
 2. StudentMain
 
