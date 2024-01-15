@@ -17,7 +17,7 @@ last_modified_at: 2024-01-14
 ---
 ## 프로그램 설명
 학생들의 이름, 국어, 영어, 수학 점수를 입력받아 stream을 사용하여 총점, 평균 구하기
-Student 객체 생성, StudentMain 작성
+
 
 ## 요구조건
 **stream** 사용
@@ -123,7 +123,7 @@ List<Integer> studentsKorScore2 = stuList.stream().mapToInt(Student::getKorScore
 
 하지만 확실하게 개념을 알고 작성하고 싶어서 둘의 차이점에 대해 알아봤다.<br>
 map()은 객체를 반환하고 mapToInt()는 int타입을 반환하기 때문에 차이가 나는 것이였다.<br>
-평소에는 map()을 사용하고, int의 값을 직접적으로 필요할 때 mapToInt()를 사용해야 겠다.
+앞으로 List로 값을 받을 때는 map()을 사용하고, int의 값을 직접적으로 받을 때 mapToInt()를 사용해야 겠다.
 
 이 외에 한 가지 만족스럽지 못한 부분이 있다.
 ### 3. totalExam
@@ -136,6 +136,6 @@ map()은 객체를 반환하고 mapToInt()는 int타입을 반환하기 때문�
 
 
 ## 리펙터링 할 것
-- 처음 학생별 3과목 점수를 입력받을 때 배열로 받아보자
+- 학생 이름과 점수 입력받는 부분 배열처리로 코드량 줄이기
 - 과목별 점수 총합과 평균을 출력하는 부분만 따로 모아서 한번에 출력하자
 - totalExam에 저장하고 출력하는 방식을 개선하자
