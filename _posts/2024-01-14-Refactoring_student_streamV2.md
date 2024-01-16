@@ -135,6 +135,7 @@ public class StudentMainV2 {
 ### 2. ExamResult객체 추가
 요구조건에서 totalExam 리스트에 학생들의 점수 총합과 평균값을 따로 추가해달라고 했다.<br>
 그래서 처음에는 Student 객체에 total과 avg 필드를 추가하려 했지만 의도와는 맞지 않는것 같아 객체를 새로 생성해 구조화 했다.
+
 **메서드 추가 X**<br>
 ExamResult를 만든 후에는 Student 객체를 선언해 메서드를 바로 구현해서 생성자를 통해 총점과 평균을 구하려했다. 하지만 Student 객체를 새로 생성하는 작업 자체가 불필하게 느껴져서 Main에서 변수를 선언하여 계산했다.
 
