@@ -26,8 +26,8 @@ categories:
     children:
       - title: "OS"
         url: /categories/OS/
-      # - title: "Categories2"
-      #   url: /categories/categories2/
+      - title: "오답노트"
+        url: /categories/오답노트/
 
   - title: "Tech"
     children:
