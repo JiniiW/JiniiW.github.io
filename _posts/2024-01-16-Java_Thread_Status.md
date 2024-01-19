@@ -36,7 +36,7 @@ last_modified_at: 2024-01-16
 
 자바는 멀티스레드 프로그래밍을 직접적으로 지원하는 언어이다.<br> 
 여기서 직접적이라는 의미는 개발자가 직접 스레드를 생성하고 조절할 수 있다는 것이다.<br>
-이게 가능한 이뉴는 JVM(Java Virtual Machine)이 스레드를 관리하며 다양한 클래스 및 인터페이스를 제공하기 때문이다.<br> 
+이게 가능한 이유는 JVM(Java Virtual Machine)이 스레드를 관리하며 다양한 클래스 및 인터페이스를 제공하기 때문이다.<br> 
   - class : Thread
   - Interface : Runnable
   - keyworld : synchronized(동기화)
