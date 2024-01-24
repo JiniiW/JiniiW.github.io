@@ -33,8 +33,8 @@ categories:
     children:
       - title: "Java"
         url: /categories/Java/
-      # - title: "Categories6"
-      #   url: /categories/categories6/
+      - title: "MySQL"
+        url: /categories/MySQL/
 
   - title: "Refactoring"
     children:
@@ -43,7 +43,7 @@ categories:
       - title: "SimpleProgram"
         url: /categories/SimpleProgram/
 
-  # - title: "Review"
-  #   children:
-  #     - title: "Categories7"
-  #       url: /categories/categories7/
+  - title: "Review"
+    children:
+      - title: "SSG"
+        url: /categories/SSG/
