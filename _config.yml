@@ -23,7 +23,7 @@ title: "JiniiLog" # 상단 헤더에 보이는 블로그 명
 title_separator: "&#124;"
 subtitle: # site tagline that appears below site title in masthead
 name: "JiniiLog" # 블로그 닉네임 설정
-description: "2024 start" # 블로그 설명
+description: "2023 start" # 블로그 설명
 url: "https://JiniiW.github.io" # 블로그 URL
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "JiniiW/JiniiW.github.io" # GitHub Repo 이름
