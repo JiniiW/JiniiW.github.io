@@ -28,6 +28,8 @@ categories:
         url: /categories/OS/
       - title: "오답노트"
         url: /categories/오답노트/
+      - title: "UML"
+        url: /categories/UML/
 
   - title: "Tech"
     children:
