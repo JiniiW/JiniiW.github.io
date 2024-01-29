@@ -7,7 +7,7 @@ categories:
 tags:
   - [sql, diagram, 정규화, 함수 종속성]
 
-permalink: MySQL_ Normalization
+permalink: MySQL_Normalization
 
 toc: true
 toc_sticky: true
